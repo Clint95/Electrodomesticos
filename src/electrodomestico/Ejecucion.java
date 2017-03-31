@@ -18,16 +18,16 @@ public class Ejecucion {
     Electrodomestico Electrodomesticos[]=new Electrodomestico[10];
    
         //Asignamos los valores a las posiciones del arreglo
-        Electrodomesticos[0]=new Electrodomestico(300, 40, 'D', "negro");
+        Electrodomesticos[0]=new Electrodomestico(300, 40, 'D', "negro") {};
         Electrodomesticos[1]=new Lavadora(150, 20);
         Electrodomesticos[2]=new Television(900, 80, 'E', "balnco", 40, false);
-        Electrodomesticos[3]=new Electrodomestico();
-        Electrodomesticos[4]=new Electrodomestico(200, 20, 'F', "verde");
+        Electrodomesticos[3]=new Electrodomestico() {};
+        Electrodomesticos[4]=new Electrodomestico(200, 20, 'F', "verde") {};
         Electrodomesticos[5]=new Lavadora(300, 40, 'Z', "blanco", 40);
         Electrodomesticos[6]=new Television(250, 70);
         Electrodomesticos[7]=new Lavadora(600, 200, 'B', "verde", 15);
         Electrodomesticos[8]=new Television(100, 90, 'F', "", 30, true);
-        Electrodomesticos[9]=new Electrodomestico(50, 10);
+        Electrodomesticos[9]=new Electrodomestico(50, 10) {};
    
         //almacenamiento de la suma de los precios
         double sumElectro=0;
@@ -49,9 +49,9 @@ public class Ejecucion {
         }
    
         //Resultados
-        System.out.println("La suma del precio de los electrodomesticos es de "+sumElectro);
-        System.out.println("La suma del precio de las lavadoras es de "+sumLava);
-        System.out.println("La suma del precio de las televisiones es de "+sumTele);
+        System.out.println("Suma precio de los electrodomesticos :"+sumElectro);
+        System.out.println("Suma precio de las lavadoras : "+sumLava);
+        System.out.println("Suma precio de las televisiones : "+sumTele);
     
     
 }

@@ -9,6 +9,7 @@ package electrodomestico;
 public interface IElectrodomestico {
     /**
     *metodo plantilla para las clases 
+    * @return 
     */
     public double precioFinal();
     

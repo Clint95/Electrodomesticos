@@ -8,7 +8,7 @@ package electrodomestico;
  * @version 1.0.0
  * @since Electrodomesticos 1.0.0
  */
-public class Electrodomestico {
+public abstract class Electrodomestico implements IElectrodomestico {
   /**
   * Declaracion de constantes definadas en el enunciado 
   */
@@ -38,7 +38,7 @@ public class Electrodomestico {
     }
    
     /**
-     * Contructor 1
+     * Contructor con el precio y peso
      * @param precioBase 
      * @param peso 
      */
@@ -47,7 +47,7 @@ public class Electrodomestico {
     }
    
     /**
-     * Constructor 2
+     * Constructor con todos los atributos de la clase
      * @param precioBase
      * @param peso
      * @param consumoEnergetico
